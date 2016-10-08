@@ -11,12 +11,13 @@ git checkout -b [feature-branch]
 - Commit to fix behaviour following next step
 ```markdown
 git add --ignore-removal --all && git commit -m "fix behaviour"
-# repeat this process with all necessary commits
+# Repeat this process with all necessary commits
 git status # Nothing to commit, working directory clean
 git checkout master
 git merge [feature-branch]
 git push origin master
-# Create pull request and merge if you are a team collaborator
+# Create pull request on guihub and merge if you are a team collaborator
+# Send mail to info@journey2mallorca.com, subject [PR-J2M]
 ```
 
 - Update private and local with next steps
@@ -32,4 +33,4 @@ git pull origin master
 git add . && git commit -m "merge with local"
 ```
 
-- *Do not push upstream*
+- **Do not push on upstream**
