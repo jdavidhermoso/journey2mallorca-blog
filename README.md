@@ -11,7 +11,7 @@ git checkout -b [feature-branch]
 - Commit to fix behaviour following next step
 ```markdown
 git add --ignore-removal --all && git commit -m "fix behaviour"
-# repeate this process with all necessary commits
+# repeat this process with all necessary commits
 git status # Nothing to commit, working directory clean
 git checkout master
 git merge [feature-branch]
