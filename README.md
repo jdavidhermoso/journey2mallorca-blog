@@ -15,6 +15,8 @@ git add --ignore-removal --all && git commit -m "fix behaviour"
 git status # Nothing to commit, working directory clean
 git checkout master
 git merge [feature-branch]
+# fix merge conflicts (UU) or not (Fast forward)
+git add . && git commit -m "merge with local"
 git push origin master
 # Create pull request on guihub and merge if you are a team collaborator
 # Send mail to info@journey2mallorca.com, subject [PR-J2M]
@@ -29,8 +31,6 @@ git checkout [feature-branch]
 git checkout -- .
 git clean -fx [-d]
 git pull origin master
-# fix merge conflicts (UU)
-git add . && git commit -m "merge with local"
 ```
 
 - **Do not push on upstream**
