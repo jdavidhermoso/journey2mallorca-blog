@@ -27,7 +27,7 @@ git pull upstream master
 git push origin master
 git checkout [feature-branch]
 git checkout -- .
-git clean -fx
+git clean -fx [-d]
 git pull origin master
 # fix merge conflicts (UU)
 git add . && git commit -m "merge with local"
