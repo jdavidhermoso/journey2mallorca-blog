@@ -8,3 +8,8 @@
 *.jar
 *.war
 *.ear
+
+# Vendors
+node_modules
+bower_components
+vendors
