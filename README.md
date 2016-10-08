@@ -1,6 +1,6 @@
 # journey2mallorca-blog
 
-#### Collaboration
+### Collaboration
 - Fork a private repository following next step
 ```markdown
 git clone https://github.com/[user-name]/journey2mallorca-blog.git
@@ -34,3 +34,5 @@ git add . && git commit -m "merge with local"
 ```
 
 - **Do not push on upstream**
+
+### [Documentation](https://drive.google.com/open?id=15V2N_8-rbGmCylSnOnkCzAi7GFjKfODYRZfGE6oRvgE)
