@@ -3,27 +3,22 @@
   [ "node_modules/**"
   , "public/vendors/**"
   ],
-  "requireCurlyBraces": true,
-  "requireSpaceAfterKeywords": true,
+  "requireCurlyBraces": true,  
   "requireSpaceBeforeBlockStatements": true,  
   "requireSpacesInConditionalExpression": true,
   "requireSpacesInFunctionExpression": {	
 	"beforeOpeningCurlyBrace": true
   },
-  "requireSpacesInAnonymousFunctionExpression": {
-	"beforeOpeningRoundBrace": true,
+  "requireSpacesInAnonymousFunctionExpression": {	
 	"beforeOpeningCurlyBrace": true
   },
-  "requireSpacesInNamedFunctionExpression": {
-	"beforeOpeningRoundBrace": true,
+  "requireSpacesInNamedFunctionExpression": {	
 	"beforeOpeningCurlyBrace": true
   },
-  "requireSpacesInFunctionDeclaration": {
-	"beforeOpeningRoundBrace": true,
+  "requireSpacesInFunctionDeclaration": {	
 	"beforeOpeningCurlyBrace": true
   },
-  "requireSpacesInFunction": {
-	"beforeOpeningRoundBrace": true,
+  "requireSpacesInFunction": {	
 	"beforeOpeningCurlyBrace": true
   },
   "disallowSpacesInCallExpression": true,
@@ -42,8 +37,7 @@
   "requireCommaBeforeLineBreak": true,
   "disallowSpaceAfterPrefixUnaryOperators": true,
   "requireSpaceBeforeBinaryOperators": true,
-  "requireSpaceAfterBinaryOperators": true,  
-  "disallowKeywords": ["with"],
+  "requireSpaceAfterBinaryOperators": true,    
   "disallowMultipleLineStrings": true,
   "disallowMultipleLineBreaks": true,
   "disallowMixedSpacesAndTabs": true,
