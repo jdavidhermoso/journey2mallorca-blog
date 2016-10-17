@@ -29,7 +29,7 @@ module.exports = function (grunt) {
 	grunt.initConfig(configs);
 
 
-	grunt.registerTask('dev', ['sass', 'watch']);
+	grunt.registerTask('dist', ['uglify']);
 
 
 	// default option to connect server
