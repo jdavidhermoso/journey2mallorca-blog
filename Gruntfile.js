@@ -29,7 +29,7 @@ module.exports = function (grunt) {
 	grunt.initConfig(configs);
 
 
-	grunt.registerTask('dist', ['uglify']);
+	grunt.registerTask('dist', ['uglify','cssmin']);
 
 
 	// default option to connect server
