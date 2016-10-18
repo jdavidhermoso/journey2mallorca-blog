@@ -29,7 +29,8 @@ module.exports = function (grunt) {
 	grunt.initConfig(configs);
 
 
-	grunt.registerTask('dist', ['uglify','cssmin','sass-lint']);
+	grunt.registerTask('dist', ['uglify','cssmin','sasslint']);	
+	
 	
 	grunt.registerTask('linters', ['sasslint']);
 
