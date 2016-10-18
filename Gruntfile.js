@@ -29,7 +29,9 @@ module.exports = function (grunt) {
 	grunt.initConfig(configs);
 
 
-	grunt.registerTask('dist', ['uglify','cssmin']);
+	grunt.registerTask('dist', ['uglify','cssmin','sass-lint']);
+	
+	grunt.registerTask('linters', ['sasslint']);
 
 
 	// default option to connect server

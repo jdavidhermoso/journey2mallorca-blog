@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+<testsuite package="org.eslint" time="0" tests="2" errors="2" name="public/styles/site.scss">
+<testcase time="0" name="org.eslint.quotes"><failure message="Strings must use single quotes"><![CDATA[line 15, col 9, Warning - Strings must use single quotes (quotes)]]></failure></testcase>
+<testcase time="0" name="org.eslint.quotes"><failure message="Strings must use single quotes"><![CDATA[line 22, col 9, Warning - Strings must use single quotes (quotes)]]></failure></testcase>
+</testsuite>
+</testsuites>
