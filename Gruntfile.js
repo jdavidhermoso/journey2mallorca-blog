@@ -29,12 +29,10 @@ module.exports = function (grunt) {
 	grunt.initConfig(configs);
 
 
-	grunt.registerTask('dist', ['uglify','cssmin']);
+	grunt.registerTask('dist', ['uglify','cssmin','bower']);
 
 
 	// default option to connect server
-	grunt.registerTask('default', [
-		'concurrent:dev',
-	]);
+	grunt.registerTask('default', ['concurrent:dev']);
 
 };
